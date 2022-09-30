@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class JawabanNo5 {
+	
+		public static void main(String[] args) {
+			Scanner keyboard = new Scanner(System.in);
+			String text ="hera dwi pradita";
+			String text1 = text.toUpperCase;
+			System.out.println(text1);
+		}
+
+
+}

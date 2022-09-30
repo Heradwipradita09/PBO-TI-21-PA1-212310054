@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class JawabanNo8 {
+	
+	 public static void main(String[] args) {
+		 
+		 Scanner input = new Scanner(System.in);
+		 String NPM, NamaLengkap, NamaKelas, Semester, IPK;
+		 
+		 System.out.print("Masukkan NPM : ");
+		 String NPM = keyboard.nextLine();
+		 
+		 System.out.print("Masukkan Nama Lengkap : ");
+		 String NamaLengkap = keyboard.nextLine();
+		 
+		 System.out.print("Masukkan Semster: ");
+		 String Semester = keyboard.nextLine();
+		 
+		 System.out.print("Masukkan IPK : ");
+		 String IPK = keyboard.nextLine();  
+	 }
+
+}

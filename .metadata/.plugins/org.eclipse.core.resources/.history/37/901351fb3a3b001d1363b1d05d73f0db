@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class JawabanNo6 {
+	
+	public static void main(String[] args) {
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Masukkan usia : ");
+		String usia = keyboard.nextLine();
+		
+		System.out.print("Masukkan nama depan: ");
+		String namaDepan = keyboard.nextLine();
+		
+		System.out.print("Masukkan nama belakang: ");
+		String namaBelakang = keyboard.nextLine();
+		
+		System.out.print("Masukkan NPM: ");
+		String npm = keyboard.nextLine();
+		
+		String str = usia.concat(namaDepan).concat(namaBelakang).concat(npm);
+		System.out.println(str);
+		//keyboard.close();
+	}
+
+}

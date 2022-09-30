@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class JawabanNo5 {
+	
+	public class upper_LowerCase {
+		
+	     public static void main(String[] args) {
+	  
+	       String str = "hera dwi pradita";
+	       String str1 = str.toUpperCase();
+	       String str2 = str.toLowerCase();
+	       System.out.println();
+	       System.out.println("str = " + str);
+	       System.out.println();
+	       System.out.println("str.toUpperCase() = " + str1);
+	       System.out.println("str.toLowerCase() = " + str2);
+	    }
+	}
+
+		
+
+}

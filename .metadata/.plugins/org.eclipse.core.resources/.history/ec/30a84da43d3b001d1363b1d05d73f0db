@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class JawabanNo8 {
+	
+	 public static void main(String[] args) {
+		 
+		 Scanner input = new Scanner(System.in);
+		 String NPM, NamaLengkap, NamaKelas, Semester,IPK;
+		 System.out.print(def + "NPM \t\t: " );
+	     NPM = input.nextLine();
+	     System.out.print(def + "NamaLengkap \t\t: " );
+	     NamaLengkap = input.nextLine();
+	     System.out.print(def + "NamaKelas \t\t: " );
+	     NamaKelas= input.nextLine();
+	     System.out.print(def + "Semester \t\t: " );
+	     Semester = input.nextLine();
+	     System.out.print(def + "IPK \t\t: " );
+	     IPK = input.nextLine();
+	     
+	 }
+
+}

@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class JawabanNo5 {
+	
+	puplic class upperCase{
+		
+		public static void main(String[] args) {
+			String text ="hera dwi pradita";
+			System.out.println(text.toUpperCase));
+		}
+	}
+	
+
+		
+
+}

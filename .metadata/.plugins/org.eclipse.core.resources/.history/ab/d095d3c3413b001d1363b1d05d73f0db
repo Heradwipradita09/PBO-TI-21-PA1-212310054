@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class JawabanNo8 {
+	
+	 public static void main(String[] args) {
+		 
+		 Scanner input = new Scanner(System.in);
+		 String NPM, NamaLengkap, NamaKelas, Semester, IPK;
+		 
+		 System.out.println("Masukkan NPM : ");
+		 String npm= input.nextLine();
+		 
+		 System.out.println("Masukkan Nama Lengkap : ");
+		 String namalengkap = input.nextLine();
+		 
+		 System.out.println("Masukkan Nama Kelas: ");
+		 String namakelas = input.nextLine();
+		 
+		 System.out.println("Masukkan Semster: ");
+		 String semester = input.nextLine();
+		 
+		 System.out.println("Masukkan IPK : ");
+		 String ipk = input.nextLine(); 
+		 
+		 System.out.println(npm);
+		 System.out.println(namalengkap);
+		 System.out.println(namakelas);
+		 System.out.println(semester);
+		 System.out.println(ipk);
+		 
+	 }
+
+}

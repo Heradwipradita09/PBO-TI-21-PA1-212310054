@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class JawabanNo5 {
+	
+	public class LowerCase{
+		public static void main(String[] args) {
+			String text = "HERA DWI PRADITA";
+			System.out println(text.toLowerCase());		
+	}
+
+}
